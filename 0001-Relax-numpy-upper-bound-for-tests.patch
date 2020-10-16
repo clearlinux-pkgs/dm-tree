@@ -1,0 +1,21 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Patrick McCarty <patrick.mccarty@intel.com>
+Date: Fri, 16 Oct 2020 19:09:09 +0000
+Subject: [PATCH] Relax numpy upper bound for tests
+
+Signed-off-by: Patrick McCarty <patrick.mccarty@intel.com>
+---
+ requirements-test.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/requirements-test.txt b/requirements-test.txt
+index 79fe359..732bf89 100644
+--- a/requirements-test.txt
++++ b/requirements-test.txt
+@@ -1,5 +1,5 @@
+ absl-py>=0.6.1
+ attrs>=18.2.0
+ # TODO(slebedev): remove the upper bound once 2.7 support is dropped.
+-numpy>=1.15.4,<1.17.0
++numpy>=1.15.4
+ wrapt>=1.11.2
