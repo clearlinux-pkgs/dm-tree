@@ -1,6 +1,6 @@
 Name     : dm-tree
 Version  : 0.1.5
-Release  : 3
+Release  : 4
 URL      : https://files.pythonhosted.org/packages/70/0a/bc3e9865603332c525fc218aceb023762aeffc2a86ff99b347b67ee3f2a8/dm-tree-0.1.5.tar.gz
 Source0  : https://files.pythonhosted.org/packages/70/0a/bc3e9865603332c525fc218aceb023762aeffc2a86ff99b347b67ee3f2a8/dm-tree-0.1.5.tar.gz
 Summary  : Tree is a library for working with nested data structures.
